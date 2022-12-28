@@ -1,0 +1,87 @@
+/******* Medium Small Device >= 568px ***********/
+@media screen and (min-width:35.5rem) and (max-width:63rem) and (orientation:landscape){
+  
+    .cont_img_ruleta{
+        width: 80%;
+    }
+
+    .cont_paquetes .paquete{
+        width: 40%;
+    }
+    
+
+}
+
+
+/* IPAD 768px*/
+@media only screen and (min-width:48rem) and (orientation:portrait){
+    /* Secciones alimentos */
+
+    .cont_img_ruleta{
+        width: 80%;
+    }
+
+    .cont_paquetes .paquete{
+        width: 40%;
+    }
+    
+
+}
+
+/* Normal Desktop >= 1024px*/
+@media only screen and (min-width:64rem) and (orientation:landscape){
+    /* Banner */
+
+    #home .cont_logo{
+        width: 30%;
+        margin: 0.5rem auto;
+    }
+  
+    .cont_img_ruleta{
+        width: 70%;
+    }
+
+    .cont_paquetes .paquete{
+        width: 30%;
+    }
+    
+}
+
+/* Ipad Pro Vertical */
+@media only screen and (min-width:64rem) and  (orientation:portrait){
+    
+   
+
+}
+
+/*Medium Small Desktop >= 1333px*/
+@media only screen and (min-width: 83rem){
+    
+    /* Banner */
+
+    #home .cont_logo{
+        width: 20% !important;
+    }
+
+    #home .cont_categorias{
+        width: 50%;
+        text-align:center;
+    }    
+    
+}
+
+/*Medium Small Desktop >= 1440px*/
+@media only screen and (min-width:90rem){
+
+}
+
+/* Super Large Desktop > 1720 */
+@media only screen and (min-width:108rem){
+
+   
+      
+}
+
+@media only screen and (min-width:160rem){
+  
+}
